@@ -225,5 +225,15 @@ function player() {
         }
     }
 
-    alert("Game Over!\nPlayer 1's score: " + s_1 + "\nPlayer 2's score: " + s_2);
+   if (s_1 > s_2) {
+     alert("Player 1 wins!\nPlayer 1's score: " + s_1 + "\nPlayer 2's score: " + s_2);
+   }
+  
+  else if (s_1 == s_2) {
+    alert("Tie game!\nPlayer 1's score: " + s_1 + "\nPlayer 2's score: " + s_2);
+  }
+  
+  else {
+    alert("Player 2 wins!\nPlayer 1's score: " + s_1 + "\nPlayer 2's score: " + s_2);
+  }
 }
