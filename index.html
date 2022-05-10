@@ -2,10 +2,45 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <style>
+      /*styling background*/
+      body {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          height: 100vh;
+          justify-content: center;
+          align-items: center;
+          background-color: #403742;
+          font-family: sans-serif;
+          color: #fafafa;
+      }
+      
+      /* styling the button*/
+      a {
+          padding: 20px 20px;
+          display: inline-block;
+          color: #fafafa;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-size: 3em;
+          overflow: hidden;
+      }
+
+      /*creating animation effect*/
+      a:hover {
+          color: #fafafa;
+          background: #7a0691;
+          box-shadow: 0 0 50px #39ff14;
+      }
+    </style>
   </head>
   <body>
-    <h1>Fizz Buzz</h1>
-    <button onclick="play()">Play Game!</button>
-    <script src="fizzbuzz.js"></script>
+    <div style="text-align: center;">
+      <h1>Fizz Buzz</h1>
+      <button onclick="play()">Play Game!</button>
+      <script src="fizzbuzz.js"></script>
+    </div>
   </body>
 </html>
