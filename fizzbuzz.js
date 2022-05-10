@@ -113,7 +113,7 @@ function computer() {
     }
 
     alert("You lose!\nYour score is " + s);
-    score.innerHtml = "score: <b><i>" + s + "</i></b>"
+    score.innerHTML = "score: <b><i>" + s + "</i></b>";
 }
 
 // player
