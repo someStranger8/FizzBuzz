@@ -70,6 +70,10 @@ function computer() {
                     c++;
                     p = false;
                 }
+              
+                else {
+                  break;
+                }
             }
         }
 
