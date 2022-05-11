@@ -1,7 +1,4 @@
 
-// get element by id
-var score = document.getElementById('Score');
-
 function play() {
   // ask for ai or player
   while (true) {
@@ -113,7 +110,6 @@ function computer() {
     }
 
     alert("You lose!\nYour score is " + s);
-    score.innerText = "score: " + s;
 }
 
 // player
