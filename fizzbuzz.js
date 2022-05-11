@@ -1,6 +1,6 @@
 
 // get element by id
-var score = document.getElementById("score");
+var score = document.getElementById('Score');
 
 function play() {
   // ask for ai or player
@@ -113,7 +113,7 @@ function computer() {
     }
 
     alert("You lose!\nYour score is " + s);
-    score.innerHTML = "score: <b><i>" + s + "</i></b>";
+    score.innerText = "score: " + s;
 }
 
 // player
